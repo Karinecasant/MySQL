@@ -6,9 +6,7 @@ informações dos personagens desse game.*/
 create database db_generation_game_online;
 USE db_generation_game_online;
 
-/*O sistema trabalhará com 2 tabelas tb_personagem e tb_classe. Siga exatamente esse passo a passo:
-Crie uma tabela tb_classe utilizando a habilidade de abstração e determine 3 atributos
-relevantes do Cargos para se trabalhar com o serviço desse game Online.*/
+/*O sistema trabalhará com 2 tabelas tb_personagem e tb_classe. Siga exatamente esse passo a passo:*/
 
 --Crie uma tabela tb_classe utilizando a habilidade de abstração e determine 3 atributos relevantes.
 create table tb_classe(
