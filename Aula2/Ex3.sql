@@ -20,8 +20,8 @@ primary key (id)
 
 --Popule esta tabela categoria com até 5 dados.
 insert into tb_categoria(medicamentos, cosmeticos, higiene) values
-("Fitoterápico", "Grau1, "Higiene bucal"),
-("Homeopático", "Grau2, "Higiene íntima"),
+("Fitoterápico", "Grau1", "Higiene bucal"),
+("Homeopático", "Grau2", "Higiene íntima"),
 ("Genérico", "Grau3", "Higiene geral"),
 ("Manipulado", "Grau1", "Higiene bucal"),
 ("Referência", "Grau2", "Higiene íntima");
