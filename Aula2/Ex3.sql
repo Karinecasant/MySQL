@@ -76,7 +76,7 @@ inner join tb_categoria on tb_categoria.id = tb_produto.categoria_id
 order by nome;
 
 
---Faça um select onde traga todos os Produtos de uma categoria específica (exemplo todos os produtos que são pizza doce).
+--Faça um select onde traga todos os Produtos de uma categoria específica.
 select * from tb_produto                                                                                                                                                
 inner join tb_categoria on tb_categoria.id = tb_produto.categoria_id
 where tipo_recheio in ("Único")

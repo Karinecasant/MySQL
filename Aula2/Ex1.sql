@@ -76,7 +76,7 @@ select * from tb_personagem
 inner join tb_classe on tb_classe.id = tb_personagem.classe_id
 order by nome;
 
---Faça um select onde traga todos os personagem de uma classe específica (exemplo todos os personagens que são arqueiros).
+--Faça um select onde traga todos os personagem de uma classe específica.
 select * from tb_personagem                                                                                                                                                   
 inner join tb_classe on tb_classe.id = tb_personagem.classe_id
 where habilidade_luta in (“Normal”)
